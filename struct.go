@@ -42,5 +42,9 @@ func main() {
 	}
 
 	// customerbase := []customer{customer1, customer2}
+
+	// access the info
 	fmt.Println(customer1.fName, customer2.lName)
 }
+
+// note: this is not databse nor sql
