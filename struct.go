@@ -30,13 +30,13 @@ func main() {
 	}
 
 	customer2 := customer{
-		fName:            "Annakin2",
-		lName:            "Skywalker2",
-		age:              502,
-		subscriber:       true,
-		homeAddress:      "Death Star2",
-		phone:            1234567,
-		creditAvailable:  10000.00,
+		fName:            "Han",
+		lName:            "Solo",
+		age:              50,
+		subscriber:       false,
+		homeAddress:      "Tatooine",
+		phone:            4321765,
+		creditAvailable:  20000.00,
 		currentCartCost:  0.00,
 		currentOrderCost: 0.00,
 	}
@@ -45,6 +45,9 @@ func main() {
 
 	// access the info
 	fmt.Println(customer1.fName, customer2.lName)
+
+	fmt.Printf("%+v\n", customer1) // Print with Variable Name
+	fmt.Printf("%v\n", customer2)  // Without Variable Name
 }
 
 // note: this is not databse nor sql
